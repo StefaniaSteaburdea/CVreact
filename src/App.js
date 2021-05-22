@@ -5,9 +5,9 @@ import Hobbies from './Hobbies';
 import Skills from './Skills';
 
 const Info=()=>(
-  <div className="grid-container">
+  <div className="grid-container1">
        
-  <div className="blackBox">
+  <div className="blackBox1">
   <h1 className="name">Steaburdea Stefania</h1>
   <Link to="/skills"><button className="buttons" > Studies and skills</button></Link>
   <Link to="/hobbies"><button className="buttons" > Hobbies and free time</button></Link>
@@ -20,7 +20,7 @@ const Info=()=>(
   <p className="p">Instagram: www.instagram.com/stefania.steaburdea/</p>
   </div>
   </div>
-  <div className="patternBox">
+  <div className="patternBox1">
   </div>
 </div>
 );
