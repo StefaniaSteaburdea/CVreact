@@ -1,18 +1,39 @@
 import React from 'react';
-import "./App.css";
-
+import "./Skills.js";
+import { Link } from 'react-router-dom';
 function Hobbies(){
-  return(
-     <div className="grid-container">
-       
-       <div className="blackBox">
-       <h1 className="name">Hobbies and free time</h1>
-       <button className="buttons" > Home</button>
-       <button className="buttons" >Studies and Skills </button>
+    return(
+      <div className="background">
+      <div className="grid-container">
+        <div className="grid2">
+           <div className="blackBox">
+             <h1 className="h1">Hobbies and free time</h1>
+             <Link to="/"><button className="buttons" > First page</button></Link>
+             <Link to="/skills"><button className="buttons" >Studies and Skills </button></Link>
+           </div>
+           <div className="patternBox">
+           </div>
+        </div>
+        <div className="box">
+            
+            <h1 className="h11">Drawings:</h1>
+            <div className="photoBox">
+            <img src={process.env.PUBLIC_URL+"/resources/img11.jpeg"} alt="image"></img>
+            <img src={process.env.PUBLIC_URL+"/resources/img12.jpeg"} alt="image"></img>
+            <img src={process.env.PUBLIC_URL+"/resources/img13.jpeg"} alt="image"></img>
+              <img src={process.env.PUBLIC_URL+"/resources/img14.jpeg"} alt="image"></img>
+            </div>
+             <h1 className="h11">Photography:</h1>
+             <div className="photoBox">
+            <img src={process.env.PUBLIC_URL+"/resources/img21.jpeg"} alt="image"></img>
+            <img src={process.env.PUBLIC_URL+"/resources/img22.jpeg"} alt="image"></img>
+            <img src={process.env.PUBLIC_URL+"/resources/img23.jpeg"} alt="image"></img>
+              <img src={process.env.PUBLIC_URL+"/resources/img24.jpeg"} alt="image"></img>
+             </div>
+         </div>
        </div>
-       <div className="patternBox">
+       <div className="box"> </div>
        </div>
-     </div>
-  );
+ );
 }
 export default Hobbies;

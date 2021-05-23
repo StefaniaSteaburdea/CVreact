@@ -8,9 +8,12 @@ const Info=()=>(
   <div className="grid-container1">
        
   <div className="blackBox1">
+  <img src={process.env.PUBLIC_URL+"/resources/picture.jpg"} alt="image" ></img>
   <h1 className="name">Steaburdea Stefania</h1>
+  <div className="buttonBox">
   <Link to="/skills"><button className="buttons" > Studies and skills</button></Link>
   <Link to="/hobbies"><button className="buttons" > Hobbies and free time</button></Link>
+  </div>
   <div className="bottom">
   <h2 className="h2">Contact :</h2>
   <p className="p">Email:stefania.steaburdea@gmail.com</p>
