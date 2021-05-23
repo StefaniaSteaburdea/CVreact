@@ -1,7 +1,7 @@
  .background{
      min-height: 100vh;
      min-width: 100vw;
-     background: rgb(0, 0, 0);
+     background:rgb(170, 55, 2);
  }
  .grid-container {
     display: grid;
@@ -10,6 +10,8 @@
     min-width: 100vh;
    background-size: cover;
    background: rgb(229, 199, 173);
+   column-gap: 40px;
+   
   }
  .patternBox{
      background-image: url("./background.jpg");
@@ -34,13 +36,23 @@
     flex-direction: column;
   }
   .box{
-    background: rgb(229, 199, 173);
+    background: rgb(199, 225, 236);
     min-width: 50%;
     min-height: 100%;
     grid-row:inherit;
     background-size: cover;
     align-items: left;
     flex-direction: column;
+  }
+  .boxH{
+    background: rgb(199, 225, 236);
+    min-width: 50%;
+    min-height: 100%;
+    background-size: cover;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 6%;
+    padding-right: 6%;
   }
   .h1{
     color: antiquewhite;
@@ -77,11 +89,14 @@
     min-height: 100%;
   }
 .photoBox{
-    min-height: 36%;
+    min-height: 10%;
     padding-left: 6%;
     align-items: center;
     padding-right: 6%;
     background-color: rgb(165, 134, 107);
+    max-width: 80%;
+    border: 8px solid rgb(90, 73, 58);
+    border-radius: 1cm;
 }
 img{
     height: 150px;

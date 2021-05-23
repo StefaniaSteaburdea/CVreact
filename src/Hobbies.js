@@ -14,21 +14,25 @@ function Hobbies(){
            <div className="patternBox">
            </div>
         </div>
-        <div className="box">
+        <div className="boxH">
             
-            <h1 className="h11">Drawings:</h1>
+            <h1 className="h11">Drawing and painting:</h1>
             <div className="photoBox">
             <img src={process.env.PUBLIC_URL+"/resources/img11.jpeg"} alt="image"></img>
             <img src={process.env.PUBLIC_URL+"/resources/img12.jpeg"} alt="image"></img>
             <img src={process.env.PUBLIC_URL+"/resources/img13.jpeg"} alt="image"></img>
               <img src={process.env.PUBLIC_URL+"/resources/img14.jpeg"} alt="image"></img>
+              <img src={process.env.PUBLIC_URL+"/resources/img15.jpeg"} alt="image"></img>
+              <img src={process.env.PUBLIC_URL+"/resources/img16.jpeg"} alt="image"></img>
             </div>
-             <h1 className="h11">Photography:</h1>
+             <h1 className="h11">Travelling and photography:</h1>
              <div className="photoBox">
             <img src={process.env.PUBLIC_URL+"/resources/img21.jpeg"} alt="image"></img>
             <img src={process.env.PUBLIC_URL+"/resources/img22.jpeg"} alt="image"></img>
             <img src={process.env.PUBLIC_URL+"/resources/img23.jpeg"} alt="image"></img>
-              <img src={process.env.PUBLIC_URL+"/resources/img24.jpeg"} alt="image"></img>
+              <img src={process.env.PUBLIC_URL+"/resources/img24.JPG"} alt="image"></img>
+              <img src={process.env.PUBLIC_URL+"/resources/img25.JPG"} alt="image"></img>
+              <img src={process.env.PUBLIC_URL+"/resources/img26.jpeg"} alt="image"></img>
              </div>
          </div>
        </div>
